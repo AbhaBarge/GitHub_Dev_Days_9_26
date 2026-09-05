@@ -30,6 +30,15 @@ export default [
     },
   },
 
+  {
+    files: ["db/**/*.ts", "src/lib/**/*.ts", "src/types/**/*.ts"],
+    rules: {
+      quotes: ["error", "single", { avoidEscape: true }],
+      semi: ["error", "always"],
+      "comma-dangle": ["error", "always-multiline"],
+    },
+  },
+
   // Astro files
   ...eslintPluginAstro.configs.recommended,
 

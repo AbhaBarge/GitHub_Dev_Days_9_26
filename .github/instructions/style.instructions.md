@@ -52,3 +52,9 @@ ALL UI components MUST use dark theme colors:
 - Smooth transitions: `transition-all duration-200 ease-in-out`
 - Shadows for depth: `shadow-md`, `shadow-lg`, `shadow-xl`
 - Focus states for accessibility: `focus:ring-2 focus:ring-blue-500`
+
+## TypeScript and Comments
+
+- In Astro frontmatter and TypeScript, use single quotes, semicolons, four-space indentation, and explicit parameter and return types for exported functions.
+- Comments should explain intent, rationale, or a non-obvious decision. Do not add comments that restate the code, and update or remove stale comments when related code changes.
+- Reusable Astro components must document their `Props` interface and the purpose of each prop.
